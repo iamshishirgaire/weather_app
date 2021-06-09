@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weather_app">
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="weather_app"
+        android:label="Weather"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
